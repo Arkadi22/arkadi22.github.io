@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="201" height="32" viewBox="0 0 201 32">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        font-size: 41px;
+      }
+
+      .cls-2 {
+        text-anchor: middle;
+      }
+
+      .cls-3 {
+        fill: #ffce54;
+        font-family: "FontAwesome";
+      }
+
+      .cls-4 {
+        fill: #73b4e2;
+        font-family: "Myriad Pro";
+      }
+
+      .cls-5 {
+        fill: #333;
+        font-family: "Nunito";
+        text-transform: uppercase;
+      }
+
+      .cls-6 {
+        fill: #65a9d9;
+      }
+    </style>
+
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="dropBlur"/>
+      <feFlood flood-opacity="0.06"/>
+      <feComposite operator="in" in2="dropBlur" result="dropShadowComp"/>
+      <feComposite in="SourceGraphic" result="shadowed"/>
+    </filter>
+  </defs>
+  <text transform="translate(101 31) scale(0.9 0.9)" class="cls-1"><tspan x="0" class="cls-2"><tspan class="cls-3"><tspan class="cls-4"> <tspan class="cls-5">Tank<tspan class="cls-6">app</tspan></tspan></tspan></tspan></tspan></text>
+</svg>
