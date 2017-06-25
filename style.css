@@ -86,6 +86,7 @@ header {
 .banner {
 	background: #68aedf;
 	position: relative;
+	overflow: hidden;
 }
 .left_right {
 		width: 50%;
